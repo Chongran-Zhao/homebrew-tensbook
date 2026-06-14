@@ -1,14 +1,25 @@
 # Homebrew TensorForge
 
-Homebrew tap for the TensorForge CLI.
+Homebrew tap for the TensorForge macOS app.
+
+## Install
 
 ```sh
-brew install Chongran-Zhao/tensorforge/tensorforge
+brew install --cask Chongran-Zhao/tensorforge/tensorforge
 ```
 
-After the tap is installed, upgrades can use:
+Homebrew requires the full `owner/tap/cask` form for untapped casks. The shorter
+`brew install --cask Chongran-Zhao/tensorforge` only names the tap, not the app.
+
+## Update
 
 ```sh
 brew update
-brew upgrade tensorforge
+brew upgrade --cask tensorforge
+```
+
+## Uninstall
+
+```sh
+brew uninstall --cask tensorforge
 ```
