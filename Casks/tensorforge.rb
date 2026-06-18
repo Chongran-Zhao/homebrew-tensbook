@@ -1,6 +1,6 @@
 cask "tensorforge" do
   version "1.0.0"
-  sha256 "eec51bdf76ca3aeb680bd90c034f54aed8fc4b3291be686b9c48881e6301db30"
+  sha256 "6939c0b95eb55ac960e60acef0190c8a90cccb0efced2ad5a08719c08679246a"
 
   url "https://github.com/Chongran-Zhao/TensorForge/releases/download/v1.0.0/TensorForge-v#{version}-aarch64-apple-darwin.dmg"
   name "TensorForge"
