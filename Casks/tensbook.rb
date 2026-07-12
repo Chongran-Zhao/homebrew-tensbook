@@ -1,8 +1,8 @@
 cask "tensbook" do
-  version "1.1.1"
-  sha256 "70b9349627b5fc31ce043fe2f7d07eae0618b11a8618135e787eed3a619bb6a3"
+  version "1.1.2"
+  sha256 "bc9b5d898760994c6a8204d3cf517997ee9d7cfb98871bf4518da1001709568f"
 
-  url "https://github.com/Chongran-Zhao/Tensbook/releases/download/v1.1.1/Tensbook-v#{version}-aarch64-apple-darwin.dmg"
+  url "https://github.com/Chongran-Zhao/Tensbook/releases/download/v1.1.2/Tensbook-v#{version}-aarch64-apple-darwin.dmg"
   name "Tensbook"
   desc "Symbolic math notebook for tensors, calculus, and ODEs"
   homepage "https://github.com/Chongran-Zhao/Tensbook"
